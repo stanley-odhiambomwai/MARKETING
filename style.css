@@ -1,0 +1,221 @@
+/* Global Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box  ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(tree.webp);
+     /* Ensures the image covers the entire page */
+     background-size: cover;
+     /* Prevents the image from repeating */
+        background-repeat: no-repeat; 
+         /* Centers the image */
+        background-position: center center; 
+        background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hover a:hover {
+    background-color: #ddd;
+    color: rgb(62, 134, 222);
+}
+
+.image-hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+
+/* Landing Section */
+.landing {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: rgb(0, 132, 255);
+    color: rgb(240, 234, 234);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #f60;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 50px 0;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background-color: blueviolet;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.testp{
+    text-align: center;
+    color: white;
+    text-shadow: #333;
+}
+
+a:any-link{
+    color: coral;
+    
+} 
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+
+.flex-container > img{
+    display: flex;
+    background-color: #f60;
+    border: 10px ;
+}
+.pricing-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plan {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#contact-form button {
+    background: #f80;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+    background: #f60;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
