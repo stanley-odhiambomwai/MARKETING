@@ -28,7 +28,7 @@ body {
 
 /* Navigation */
 header {
-    background: #333;
+    background: #075309;
     color: #fff;
     padding: 10px 0;
 }
@@ -56,6 +56,11 @@ nav ul li a {
     color: rgb(62, 134, 222);
 }
 
+.hover .logo .img{
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+    
+}
 .image-hover{
     display: flex;
     flex-direction: row;
@@ -73,6 +78,7 @@ nav ul li a {
     align-items: center;
     text-align: center;
 }
+
 
 .landing h1 {
     font-size: 48px;
@@ -107,6 +113,10 @@ h2{
     background: #f4f4f4;
 }
 
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
 .feature-grid {
     display: flex;
     justify-content: space-between;
@@ -126,6 +136,10 @@ h2{
     padding: 50px 0;
 }
 
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
 .testimonial-grid {
     display: flex;
     justify-content: space-between;
@@ -145,6 +159,7 @@ h2{
     text-align: center;
     color: white;
     text-shadow: #333;
+    background-color:#333
 }
 
 a:any-link{
@@ -158,7 +173,10 @@ a:any-link{
     background: #f4f4f4;
 }
 
-
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
 .flex-container > img{
     display: flex;
     background-color: #f60;
@@ -180,6 +198,11 @@ a:any-link{
 /* Contact Section */
 #contact {
     padding: 50px 0;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
 }
 
 #contact-form {
@@ -217,5 +240,9 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto
 }
