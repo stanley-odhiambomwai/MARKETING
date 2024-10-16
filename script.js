@@ -66,6 +66,4 @@ function handlePurchase(plan, price) {
     // Simulate a purchase process
     alert(`You have selected the ${plan} for $${price}/month. Redirecting to payment...`);
     
-    // Here, you'd typically redirect to a payment gateway, for example:
-    // window.location.href = "https://payment-gateway.com/checkout?plan=" + plan + "&price=" + price;
 }

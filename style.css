@@ -56,16 +56,18 @@ nav ul li a {
     color: rgb(62, 134, 222);
 }
 
-.hover .logo .img{
-        width: 100px; /* Adjust size as needed */
+ .hover .logo .img{
+        width:200 px; /* Adjust size as needed */
         height: auto;
-    
+    display: flex;
+    align-items: flex-start;
+    justify-self: start;
 }
 .image-hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 200px;
+    height: 100px;
 }
 
 /* Landing Section */
@@ -123,7 +125,7 @@ h2{
 }
 
 .feature {
-    background: #fff;
+    background: #9607ac;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 30%;
