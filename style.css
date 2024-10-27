@@ -112,7 +112,7 @@ h2{
 /* Features Section */
 #features {
     padding: 50px 0;
-    background: #f4f4f4;
+    background-image:url(backim2.jpg) ;
 }
 
 .logo img {
@@ -172,7 +172,7 @@ a:any-link{
 /* Pricing Section */
 #pricing {
     padding: 50px 0;
-    background: #f4f4f4;
+   background-image:url(backim.jpg) ;
 }
 
 .logo img {
